@@ -5,6 +5,8 @@ https://placekitten.com/ - Same but cats
 https://www.webfx.com/web-design/color-picker/ - Get hexadecimal colors
 https://css-tricks.com/almanac/ - reference to CSS styles
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model - Learning CSS by the box model
+https://icons8.com/icons - small svg icons
+
 
 Learn more information
 
