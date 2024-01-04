@@ -8,6 +8,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_t
 https://icons8.com/icons - small svg icons
 
 
+
 Learn more information
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p - Paragraph tags in HTML 5
@@ -19,6 +20,21 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Applying_color
 https://developer.mozilla.org/en-US/docs/Web/CSS/padding
 https://developer.mozilla.org/en-US/docs/Web/CSS/margin
 https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link - Linking stylesheets
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform - text tranform
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-family - font family
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element - Learn about all HTML elements
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head - head element of HTML
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title - HTML title element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body - HTML body element
+https://www.sublimetext.com/docs/ - subliminal text editor information
+https://code.visualstudio.com/docs/languages/html - VS code for HTML
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl - dl, a different type of list
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a - Anchor element
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL#absolute_urls_vs._relative_urls - absolute URLs vs Relative URLS
+
 
 
 NOTES
