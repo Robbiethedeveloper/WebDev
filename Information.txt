@@ -1,0 +1,26 @@
+HTML
+https://placehold.co/ - A site used to load a random picture.  Good for placeholders when building a site
+https://picsum.photos/ - similar to the above site
+https://placekitten.com/ - Same but cats
+https://www.webfx.com/web-design/color-picker/ - Get hexadecimal colors
+https://css-tricks.com/almanac/ - reference to CSS styles
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model - Learning CSS by the box model
+
+Learn more information
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p - Paragraph tags in HTML 5
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target - check out target attribute
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Applying_color
+https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
+
+
+NOTES
+Padding - refers to the space between an element's content and its border.
+Margin - refers to the additional space or area around or outside an element.
+
+
