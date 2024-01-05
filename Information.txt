@@ -34,11 +34,20 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl - dl, a different t
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a - Anchor element
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
 https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL#absolute_urls_vs._relative_urls - absolute URLs vs Relative URLS
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics - Semantics information
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
 
 
 
 NOTES
 Padding - refers to the space between an element's content and its border.
 Margin - refers to the additional space or area around or outside an element.
+First element inside a section element should be a heading
 
 
