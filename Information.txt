@@ -28,8 +28,6 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head - head element of
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title - HTML title element
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body - HTML body element
-https://www.sublimetext.com/docs/ - subliminal text editor information
-https://code.visualstudio.com/docs/languages/html - VS code for HTML
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl - dl, a different type of list
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a - Anchor element
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
@@ -43,7 +41,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
 
-
+Text Editors
+https://www.sublimetext.com/docs/ - subliminal text editor information
+https://code.visualstudio.com/docs/languages/html - VS code for HTML
 
 NOTES
 Padding - refers to the space between an element's content and its border.
