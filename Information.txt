@@ -40,6 +40,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+
 
 Text Editors
 https://www.sublimetext.com/docs/ - subliminal text editor information
@@ -49,5 +54,10 @@ NOTES
 Padding - refers to the space between an element's content and its border.
 Margin - refers to the additional space or area around or outside an element.
 First element inside a section element should be a heading
+Main element should only be used once per page and not on repeating information such as a nav bar, etc.  Essentially, use for stuff unique to that page.
+Div element has no semantic meaning.  It's just a wrapper that groups together related content.  
+Can use multiple footers and headers on a single page.
+
+
 
 
