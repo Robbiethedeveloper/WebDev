@@ -1,0 +1,8 @@
+How to use a custom webserver with Python 3
+
+In the command prompt, navigate to the folder you want (In my case: C:\Users\Robbie\Documents\GitHub\WebDev\VR Experience)
+To create a webserver with python 3 use the following command:
+	python -m http.server
+Once this completes, navigate to the below site via a internet browser:
+	localhost:8000
+
