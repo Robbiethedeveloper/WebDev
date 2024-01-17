@@ -44,11 +44,36 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+https://webaim.org/techniques/alttext/ - best practices with alt tag withing the image element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br - Line Break Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr - Themantic Break element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong - strong element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em - emphasis element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small - side comment element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span - the span element
+https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content - inline elements
+https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content - block elements
+https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/ - running a local web server for root-relative links
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#email_links
+https://css-tricks.com/snippets/html/mailto-links/ - mailto links
+https://developer.mozilla.org/en-US/docs/Glossary/Entity - entity codes for use in HTML
+https://html.spec.whatwg.org/multipage/named-characters.html - entity code list additional
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre - Pre element
 
 
 Text Editors
 https://www.sublimetext.com/docs/ - subliminal text editor information
 https://code.visualstudio.com/docs/languages/html - VS code for HTML
+
+Videos
+https://teamtreehouse.com/library/http-basics/html-review-and-uris-vs-urls
+
 
 NOTES
 Padding - refers to the space between an element's content and its border.
@@ -57,7 +82,10 @@ First element inside a section element should be a heading
 Main element should only be used once per page and not on repeating information such as a nav bar, etc.  Essentially, use for stuff unique to that page.
 Div element has no semantic meaning.  It's just a wrapper that groups together related content.  
 Can use multiple footers and headers on a single page.
-
+The image element is an empty element.  This means it doesn't contain any child content and it doesn't have a closing tag.
+Empty elements, such as img, hr, and br can have a trailing slash and this is to indicate that it is an empty element.  This is optional.
+You shouldn't use the hr element to have a line and you should use 3 or more line breaks typically.  Athestics are best handled by CSS
+Just like div, when there is no suitable to differentiate a piece of text from surrounding text, use span.  Both Div and Span both have no semantic meaning on its own.
 
 
 
