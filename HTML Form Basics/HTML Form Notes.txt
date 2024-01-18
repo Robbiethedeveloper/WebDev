@@ -1,0 +1,18 @@
+HTML Form Notes
+
+LEARN MORE
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+
+
+NOTES
+The form-element wraps a section of the document that contains form controls. The action attribute specifies the web address of a program that processes the information submitted via the form. The method attribute specifies the HTTP method that the browser should use to submit the form, such as POST or GET. A form cannot be nested inside one another form.
+
+The input-element is used to create many different types of form controls. The type attribute specifies what kind of form control should be rendered, such as text, email, passwords, and more. The name attribute is submitted with form data so that the server-side code can parse the information.
+
+The textarea-element accepts multiple lines of text from the user. Most browsers will render the textarea element with a widget to allow for resizing the editing area.
+
+Just as the name implies, the button-element will render a clickable button. The type attribute specifies whether the button should submit the form data, reset the form, or have no default behavior for use with JavaScript.
+
