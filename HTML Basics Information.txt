@@ -1,0 +1,102 @@
+HTML
+https://placehold.co/ - A site used to load a random picture.  Good for placeholders when building a site
+https://picsum.photos/ - similar to the above site
+https://placekitten.com/ - Same but cats
+https://www.webfx.com/web-design/color-picker/ - Get hexadecimal colors
+https://css-tricks.com/almanac/ - reference to CSS styles
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model - Learning CSS by the box model
+https://icons8.com/icons - small svg icons
+
+
+
+Learn more information
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p - Paragraph tags in HTML 5
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target - check out target attribute
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Applying_color
+https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link - Linking stylesheets
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform - text tranform
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-family - font family
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element - Learn about all HTML elements
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head - head element of HTML
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title - HTML title element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body - HTML body element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl - dl, a different type of list
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a - Anchor element
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL#absolute_urls_vs._relative_urls - absolute URLs vs Relative URLS
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics - Semantics information
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+https://webaim.org/techniques/alttext/ - best practices with alt tag withing the image element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br - Line Break Element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr - Themantic Break element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong - strong element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em - emphasis element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small - side comment element
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span - the span element
+https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content - inline elements
+https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content - block elements
+https://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/ - running a local web server for root-relative links
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#email_links
+https://css-tricks.com/snippets/html/mailto-links/ - mailto links
+https://developer.mozilla.org/en-US/docs/Glossary/Entity - entity codes for use in HTML
+https://html.spec.whatwg.org/multipage/named-characters.html - entity code list additional
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre - Pre element
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#html_comments - Comments in HTML
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+
+Text Editors
+https://www.sublimetext.com/docs/ - subliminal text editor information
+https://code.visualstudio.com/docs/languages/html - VS code for HTML
+
+Videos
+https://teamtreehouse.com/library/http-basics/html-review-and-uris-vs-urls
+https://teamtreehouse.com/library/introducing-the-vs-code-text-editor
+https://teamtreehouse.com/library/debugging-css-with-chrome-devtools
+
+NOTES
+Padding - refers to the space between an element's content and its border.
+Margin - refers to the additional space or area around or outside an element.
+First element inside a section element should be a heading
+Main element should only be used once per page and not on repeating information such as a nav bar, etc.  Essentially, use for stuff unique to that page.
+Div element has no semantic meaning.  It's just a wrapper that groups together related content.  
+Can use multiple footers and headers on a single page.
+The image element is an empty element.  This means it doesn't contain any child content and it doesn't have a closing tag.
+Empty elements, such as img, hr, and br can have a trailing slash and this is to indicate that it is an empty element.  This is optional.
+You shouldn't use the hr element to have a line and you should use 3 or more line breaks typically.  Athestics are best handled by CSS
+Just like div, when there is no suitable to differentiate a piece of text from surrounding text, use span.  Both Div and Span both have no semantic meaning on its own.
+
+
+Software
+https://developer.chrome.com/docs/devtools/
+
+
+New courses
+https://teamtreehouse.com/library/html-forms
+https://teamtreehouse.com/library/html-tables
+
