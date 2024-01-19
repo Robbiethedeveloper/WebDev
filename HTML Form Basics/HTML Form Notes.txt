@@ -5,6 +5,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+https://developer.mozilla.org/en-US/docs/Learn/Forms
 
 
 NOTES
@@ -16,3 +24,10 @@ The textarea-element accepts multiple lines of text from the user. Most browsers
 
 Just as the name implies, the button-element will render a clickable button. The type attribute specifies whether the button should submit the form data, reset the form, or have no default behavior for use with JavaScript.
 
+The label-element helps to organize forms by assigning some helpful text to a form control. This text lets the user know what kind of data they should add to each form field.
+The fieldset-element wraps multiple form elements into common groups. This can help organize a form and make it easier to understand for users.
+The legend-element is similar to the label element, but instead of labeling a form control, it labels a fieldset. Adding a legend to a fieldset can provide some helpful context for users that are filling out a form.
+The select-element renders a drop-down menu that contains selectable options. This type of form control is ideal for scenarios where the user must choose one option from a preset list of 5 or more choices.
+The option-element represents one of the choices that a user can choose in a select menu. It should always be nested inside of a select element.
+The optgroup-element wraps one or more option elements and helps to create logical groups. The label attribute specifies the text that the optgroup should display above the nested options.
+Remember that in order to group radio buttons together, they must all share the same value for the name attribute.
