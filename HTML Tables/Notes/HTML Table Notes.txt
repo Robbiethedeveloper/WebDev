@@ -1,0 +1,26 @@
+LEARN MORE
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr - Table Row Documentation
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td - Table Data Cell Documentation
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead - Table head element documentation
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody - Table body element documentation
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot - Table Footer element documentation
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption - Table Caption element documentation
+
+NOTES
+<table> - The table element represents data in a series of rows and columns. Tables should only be used for displaying tabular data, and never for page layout.
+<tr> - The table row element defines a row of cells in a table. Table rows can be filled with table cells and table header cells.
+<td> - The table cell element contains data and represents a single table cell. Each table cell should be inside a table row.
+
+Tables should not use any attributes.   Some still work but it is not recommended to use them anymore.
+
+<th> - The table header cell helps label a group of cells in either a column or a row.
+
+<thead> - The table head element (not to be confused with the table header cell element) defines a set of rows that make up the header of a table.
+<tbody> - The table body element defines one or more rows that make up the primary contents (or "body") of a table.
+<tfoot> - The table foot element contains a summary of the table. This might be totals for columns of numerical data or meta-information about the source of data.
+Table footers should always go after the table head elements and before the table body elements.
+Use the colspan attribute with the td element to have the footer take up more than the default 1 cell.  By not doing this, larger text will push the column wider.
+<caption> - The caption element represents the title of the table.
+Tables should only be used for displaying tabular data and not for positioning images and text because that can now be done with CSS.  One major exception to this is HTML emails.  
