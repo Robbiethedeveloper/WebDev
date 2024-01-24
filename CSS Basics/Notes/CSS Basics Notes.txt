@@ -1,0 +1,54 @@
+CSS Basics Notes
+
+Learn More
+https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_class - different between ID and class selectors
+https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator
+https://www.w3schools.com/css/tryit.asp?filename=trycss_sel_element_element
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes - states of certain elements such as links
+https://developer.mozilla.org/en-US/docs/Web/CSS/:link - links that have not yet been visited
+https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types
+https://www.w3schools.com/css/css_syntax.ASP
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+https://developer.mozilla.org/en-US/docs/Web/CSS/length
+https://www.w3schools.com/cssref/css_units.php
+https://developer.mozilla.org/en-US/docs/Web/CSS/length
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
+https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+https://www.w3schools.com/cssref/func_rgba.php
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+https://www.w3schools.com/css/css_specificity.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance
+
+
+Links
+https://validator.w3.org/#validate_by_input - Markup validatr
+https://coolors.co/palettes/trending
+https://jigsaw.w3.org/css-validator/#validate_by_input
+
+
+NOTES
+
+The main difference between a class and an ID selector is that IDs are unique and they’re used to identify just one element on the page, whereas a class can be used to classify and target more than one element. This makes classes more flexible than IDs.
+Unique naming conventions for both id's and class's.  dont use spaces nor punctuation outside of underscore or hypens.  It's good practice to provide purposeful names so it describes the purpose of the class/id.
+Use classes when you're not sure or know the selector isn't unique.
+elements can have multiple class's assigned to them just separate them with a space.
+id's carry more weight than class's.  So if an element has both a class and an id with a same attribute being modified, the id will be the one that displays.
+Descendant selectors, like IDs, are very specific so we need to be careful with how we use them.  If you're making broad changes accross your entire document, such as remove all of the bullets from your unordered lists, then a descendant selector can be a great tool.  But using too many of these can make our CSS rules less reusable.  If you're aiming for a more specific change that will be applied to certain areas of your document then a class selector is a better choice.
+Relative units and percentage units are always relative to other length values, which makes it easier for developers to layout content independently of screen size and resolution. Meanwhile, absolute units, like pixels, are always fixed in relation to each other. They don't scale like relative units do.
+Pixil size should look the same on a high res screen vs a low res.  
+When we use a percentage unit in CSS, the percentage value is measured relative to a parent element's length
+Div is short for content division.  As it has no semantic meaning it's not a good replacement for a meaninful elemebnt like a header or a section element.
+In the code we changed the h1 element to be 400% of it's parent font size.  the default size for most browsers is 16px so in this case we changed this to 16*4 or 64px.  When we changed the default to 20px then the 400% changed this to 80px;
+Em and Rem are font-relative units.  Em is calculated based on it's parent elements font size.
+Ems include the measurement of parent elements when making size calculations.  Rems will only refer to the root size.  
+Most Weight - Origin and Importance: CSS can come from 1 of three places - User Agent Style sheet (the css a browser applies by default), user style sheet(styles set by a user such as font size set by the user of the browser), author style sheet(CSS we create as the front end developer).
+CSS is author style sheets has more importance than user style sheets and user agent style sheets.  
+Selector Specificity: Inline styles > any other styles. Selectors, in the form of ID, class or type have their own specificity levels. IDS > class > element.
+Source Order: what happens when you have competing IDs, classes, or elements with conflicting rules?  Properties written later will overwrite the ones written earlier.  If two or more stylesheets are linked, the last one will take precendence.

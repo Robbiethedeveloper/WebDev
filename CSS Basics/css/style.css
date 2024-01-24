@@ -1,0 +1,113 @@
+/* Shortcut to make comments is 'Ctrl' + '/' */
+html {
+  font-size: 100%; /* 100% == 16px == 1em for accsability reasons it is good to not set this by px */
+}
+
+/* type selectors */
+h1 {
+  font-size: 4em; /* 400% == 4em */
+  /* margin-bottom: 1.5em; */ /* When doing this instead of being the 30px it will take the cululative amount so 4 em from the htmls 20px is 80 * 1.5 = 120.  This is where rem is good */
+  margin-bottom: 1.5rem;
+}
+
+p {
+  color: olive;
+  font-size: 26px;
+}
+
+header {
+  background-color: #ff6600; /*  ff amount of red, 66 amount of green and 00 amount of blue.  Since they are repeating then you can shorten this to #f60 */
+  width: 80%;
+  margin-left: 10%;
+}
+
+header p {
+  background-color: snow;
+  border-bottom: 1px solid gray;
+}
+
+#header-box {
+  width: 50%;
+  background-color: #33d549;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: lightcoral;
+}
+a:link {
+  color: darkblue;
+  background-color: peachpuff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: seagreen;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* tun links white with orange background when they receive focus */
+a:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 165, 0, .5); /* the 4th determines opacity */
+}
+
+ol li {
+  letter-spacing: 3px;
+  color: tomato;
+}
+
+/*
+ol li:first-child {
+  font-weight: bold;
+}
+*/
+
+ul li {
+  list-style: none;
+}
+
+/* ID Selectors */
+#education {
+  border: 3px solid red;
+}
+
+#education h3 {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  background-color: rgb(150, 200, 250);
+}
+
+#skills-list {
+  background-color: aliceblue;
+  padding: 36px;
+}
+
+/* Class Selectors */
+.top-skill {
+  font-weight: bold;
+  background-color: teal;
+  color: papayawhip;
+}
+
+.date {
+  border: 2px solid steelblue;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.special {
+  text-transform: uppercase;
+  background-color: papayawhip;
+}
+
+#proud {
+  font-size: 48px;
+}
+
