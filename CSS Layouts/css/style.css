@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.125em; /*18px on most screens */
+}
+
+/*
+body {
+  margin: 0;
+}
+article, aside, footer {
+  margin: 12px;
+}
+This section can be done just by adding negative margin to the header as this code was used to decrease the body margin only for the top of the body element.  
+*/
+
+header {
+  height: 25vh;
+  background-color: #294969;
+  color: ghostwhite;
+  padding: 10px 15px;
+/*  border-width: 12px;   These 3 comments are equivalent to the current active border property and value*/ 
+/*  border-style: solid;*/
+/*  border-color: #ffa949;*/
+  border: 12px solid #ffa949;
+  border-bottom-color: #cf7919;
+  margin: -8px -8px 20px;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+  border-bottom: 2px dotted #666;
+  background-color: azure;
+}
+
+aside img, #bio {
+  width: 100%;
+  max-width: 600px;
+/*  height: auto;*/ /* height auto is default, this isn't needed css */
+}
+
+#bio {
+  padding: 2rem;
+  border: 5px solid tomato;
+  background-color: mistyrose;
+}
+
+footer {
+  width: 200px;
+  padding: 4px;
+  border: 2px solid #ffa949;
+  margin: 30px auto 15px;
+  color: #294969;
+  font-size: .8rem;
+  text-align: center;
+}
+

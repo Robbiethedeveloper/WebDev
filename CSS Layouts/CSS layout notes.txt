@@ -1,0 +1,75 @@
+Learn More
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model
+https://www.w3schools.com/css/css_boxmodel.asp
+https://css-tricks.com/the-css-box-model/
+https://css-tricks.com/almanac/properties/p/padding/
+https://webplatform.github.io/docs/guides/css_shorthand/
+https://developer.chrome.com/docs/devtools/dom/
+https://developer.mozilla.org/en-US/docs/Web/CSS/border
+https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+https://www.w3schools.com/cssref/sel_element_comma.php
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+https://www.w3schools.com/css/css3_box-sizing.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
+https://www.w3schools.com/cssref/pr_dim_max-width.php
+https://css-tricks.com/fun-viewport-units/
+https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts
+
+
+Links
+
+
+
+Notes
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent.  Padding creates space inside the box.
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent.  Margin creates space outside the box.
+
+Padding values cannot be negative and the initial value for all padding properties is 0.
+
+syntax of padding:  padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>  OR
+                  <padding:top>
+                  <padding:right>
+                  <padding-bottom>
+                  <padding-left>
+      If only 3 values are entered then the first value applies to the top, 2nd value on both the left and right side, and the last value on the bottom.
+      If only 2 values are entered then the first value is applied to the top and bottom, and the 2nd value applies to the right and left.
+      If only one value, then this applies to all 4 sides.
+
+Its important to note that if a percentage value is used, then it is relative to the total width of the container not the height.  So if you use <padding: 10% 15%> then this will applied 10% of the top and bottom padding based on the headers width and 15% to the left and right side also based on the width.
+      You can test this by adjust the browser first vertically and note that the padding doesn't change but it will change when adjusting horizontally.
+
+
+Border needs 3 things to be viewable: width, style and color.
+      If not color is defined, then this will inherit text color of the header.
+
+Border width Syntax: border-width: <border-width - top> || <border-width - right> || <border-width - bottom> || <border-width - left>
+      these same syntax applies for Border-style and border-color as well.
+      If only 3 values are entered then the first value applies to the top, 2nd value on both the left and right side, and the last value on the bottom.
+      If only 2 values are entered then the first value is applied to the top and bottom, and the 2nd value applies to the right and left.
+      If only one value, then this applies to all 4 sides.
+
+You can shorten all 3 of these properties with the below syntax:
+      border: <width> <style> <color>; you can rearrange the properties and still get the same output such as : border: <color> <width> <style>
+
+You can overrride one of these by putting it below.  such as if you wanted a different bottom border, then put this past the initial border declaration
+
+Margin works just like padding and uses the same syntax as padding.
+
+Margin doesn't change the measurement of the box it is in due to being the space outside of the border.
+
+Margin separates one rectangular CSS box from another and doesn't impact the measurement of any element.
+
+Margin can use negative values to close up space between two elements.  There is no such thing as negative padding or negative borders though.
+
+In a footer, if you lower the width of the amount you might want to center that to a page.  change the left right to auto.  This will center the element to the middle.  This sets the left and right margins to be equal and centers the element.
+This doesn't work for vertically centering a box though.  Only left and right margins.
+
+Less commonly used as the max-width property, there are min-width, max-height, and min-height properties as well.
+
+vw - viewport width 1vw is equal to 1% of the viewport width.  a 1440pixil monitor in width 10vw is equal to 144pixels.
+vh - viewport height 1vh is 1% of the viewport height
+
+You can enter vh heights greater than 100.
